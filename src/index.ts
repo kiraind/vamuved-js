@@ -2,11 +2,11 @@ import fetch from 'isomorphic-unfetch'
 
 let hostname = 'vamuved.rurururururu.ru'
 
-export function setVamUvedHosthame (customHostname: string) {
+export function setHosthame (customHostname: string) {
   hostname = customHostname
 }
 
-export async function vamuved (channelId: string, message?: string) {
+export async function send (channelId: string, message?: string) {
   const messagePart = message !== undefined
     ? encodeURIComponent(message)
     : ''

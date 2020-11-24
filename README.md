@@ -16,19 +16,19 @@ npm i vamuved
 Get new `channelId` from [Telegram bot](http://t.me/vamuvedbot) that you want to deliver you notifications.
 
 ```ts
-import { vamuved } from 'vamuved'
+import vamuved from 'vamuved'
 
 // ...
 
 // second argument is optional
-await vamuved('5fbc2c25a5efd72bf4f503a1', 'hello world!!!')
+await vamuved.send('5fbc2c25a5efd72bf4f503a1', 'hello world!!!')
 ```
 
 Error handling:
 
 ```ts
 try {
-  await vamuved('5fbc2c25a5efd72bf4f503a1')
+  await vamuved.send('5fbc2c25a5efd72bf4f503a1')
 
   console.log('done')
 } catch (e) {
@@ -39,9 +39,9 @@ try {
 Set hosthame for custom VamUved server:
 
 ```ts
-import { vamuved, setVamUvedHosthame } from 'vamuved'
+import vamuved from 'vamuved'
 
-setVamUvedHosthame('example.com')
+vamuved.setHosthame('example.com')
 
-await vamuved(...)
+await vamuved.send(...)
 ```
