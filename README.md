@@ -13,7 +13,7 @@ npm i vamuved
 Get new `channelId` from [Telegram bot](http://t.me/vamuvedbot) that you want to deliver you notifications.
 
 ```ts
-import vamuved from 'vamuved'
+import { vamuved } from 'vamuved'
 
 // ...
 
@@ -36,7 +36,7 @@ try {
 Set hosthame for custom VamUved server:
 
 ```ts
-import vamuved, { setVamUvedHosthame } from 'vamuved'
+import { vamuved, setVamUvedHosthame } from 'vamuved'
 
 setVamUvedHosthame('example.com')
 

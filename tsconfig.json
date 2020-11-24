@@ -4,8 +4,9 @@
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "target": "es2015",
+    "strict": true,
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist/esm"
   },
   "include": [
     "src/**/*"

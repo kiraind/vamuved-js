@@ -6,7 +6,7 @@ export function setVamUvedHosthame (customHostname: string) {
   hostname = customHostname
 }
 
-export default async function vamuved (channelId: string, message?: string) {
+export async function vamuved (channelId: string, message?: string) {
   const messagePart = message !== undefined
     ? encodeURIComponent(message)
     : ''
