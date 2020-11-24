@@ -1,3 +1,6 @@
+[![Strict TypeScript Checked](https://badgen.net/badge/TS/Strict "Strict TypeScript Checked")](https://www.typescriptlang.org)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 # VamUved
 
 API library for VamUved, service for developers for delivering simple notifications about your program.
