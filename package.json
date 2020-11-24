@@ -1,0 +1,47 @@
+{
+  "name": "vamuved",
+  "version": "1.0.0",
+  "description": "Library for sending notifications via VamUved",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiraind/vamuved-js.git"
+  },
+  "keywords": [
+    "notifications"
+  ],
+  "author": "kiraind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiraind/vamuved-js/issues"
+  },
+  "homepage": "https://github.com/kiraind/vamuved-js#readme",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "standardx": "^7.0.0",
+    "typescript": "^4.1.2"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "error"
+    }
+  },
+  "standardx": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint/eslint-plugin"
+    ],
+    "ignore": [
+      "build"
+    ]
+  }
+}
